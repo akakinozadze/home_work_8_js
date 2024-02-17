@@ -1,14 +1,44 @@
 .imgBox {
-    max-width: 300px;
-    width: 100%;
-    background-color: antiquewhite;
-    margin: auto;
+  max-width: 300px;
+  width: 100%;
+  background-color: antiquewhite;
+  margin: auto;
 }
 .ul {
-    max-width: 300px;
-    width: 100%;
+  max-width: 300px;
+  width: 100%;
 }
 .image1 {
-    max-width: 40px;
-    width: 100%;
+  max-width: 40px;
+  width: 100%;
+}
+.div2 {
+  max-width: 300px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.batoon {
+  max-width: 130px;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom right, #ffff00 0%, #ff3300 100%);
+  border-radius: 16px;
+  border: none;
+}
+.batoon:hover {
+  box-shadow: 5px 5px 30px rgb(0, 217, 255);
+}
+.Btn4 {
+  display: flex;
+
+  justify-content: space-between;
+}
+.ul {
+  text-align: center;
+  color: #1d1c1b;
+  font-size: 1.5rem;
 }
