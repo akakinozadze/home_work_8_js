@@ -33,7 +33,6 @@
 //     console.log(error);
 //   });
 
-
 const div = document.getElementById("Div");
 const ul = document.getElementById("Ul");
 const btn = document.getElementById("Btn");
@@ -81,29 +80,22 @@ function Info(page) {
 }
 function BtnFunction() {
   btn.addEventListener("click", function () {
+    //next
     if (FirsyFage == 2) {
       return (btn.style.display = "none");
+    } else {
+      btn2.style.display = "block";
     }
     FirsyFage++;
     Info(FirsyFage);
   });
-  btn.addEventListener("click", function () {
-    if (FirsyFage === 2) {
-      return (btn2.style.display = "block");
-    }
 
-    Info(FirsyFage);
-  });
   btn2.addEventListener("click", function () {
-    if (FirsyFage === 2) {
-      return (btn.style.display = "block");
-    }
-    Info(FirsyFage);
-  });
-  btn2.addEventListener("click", function () {   // back
-    if (FirsyFage === 1) {   
+    // back
+    if (FirsyFage === 1) {
       return (btn2.style.display = "none");
-      return;
+    } else {
+      btn.style.display = "block";
     }
 
     FirsyFage--;
